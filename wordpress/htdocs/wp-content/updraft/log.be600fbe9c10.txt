@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Sat, 11 Apr 2015 18:27:41 +0000 on http://54.215.42.54
+0000.015 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.63 WP: 4.1.1 PHP: 5.4.37 (Linux ip-10-197-97-22 3.13.0-45-generic #74-Ubuntu SMP Tue Jan 13 19:36:28 UTC 2015 x86_64) MySQL: 5.5.42 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.021 (1) Free space on disk containing Updraft's temporary directory: 7181.1 Mb
+0000.026 (1) This backup task is either complete or began over 2 days ago: ending (1428776861.2283, )

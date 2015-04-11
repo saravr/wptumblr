@@ -1,0 +1,107 @@
+0000.011 () Opened log file at time: Sat, 11 Apr 2015 18:27:26 +0000 on http://54.215.42.54
+0000.011 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.63 WP: 4.1.1 PHP: 5.4.37 (Linux ip-10-197-97-22 3.13.0-45-generic #74-Ubuntu SMP Tue Jan 13 19:36:28 UTC 2015 x86_64) MySQL: 5.5.42 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4M | 4.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 7239.1 Mb
+0000.011 () Restore job started. Entities to restore: plugins, themes, uploads, others, db
+0000.293 () Entity: db
+0000.293 () restore_backup(backup_file=backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-db.gz, type=db, info=a:0:{}, last_one=)
+0000.293 () Unpacking backup...
+0000.329 () Database successfully unpacked
+0000.330 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.330 () Using direct MySQL access; value of use_mysqli is: 0
+0000.332 () Tried to raise max_allowed_packet from 16 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.332 () Max packet size: 16 Mb
+0000.333 () Entering maintenance mode
+0000.333 () Enabling Maintenance mode&#8230;
+0000.337 () Backup created by: 1.9.63
+0000.337 () <strong>Backup of:</strong> http://wptumblr.sandymist.com
+0000.338 () Content URL: http://wptumblr.sandymist.com/wp-content
+0000.338 () Old table prefix: wp_
+0000.338 () Site information: multisite=0
+0000.341 () New table prefix: wp_
+0000.351 () Restoring table (InnoDB): wp_options
+0000.457 () Restoring table (InnoDB): wp_users
+0000.482 () Restoring table (InnoDB): wp_usermeta
+0000.514 () Restoring table (InnoDB): wp_commentmeta
+0000.533 () Restoring table (InnoDB): wp_comments
+0000.568 () Restoring table (InnoDB): wp_links
+0000.590 () Restoring table (InnoDB): wp_postmeta
+0000.622 () Restoring table (InnoDB): wp_posts
+0000.669 () Restoring table (InnoDB): wp_term_relationships
+0000.697 () Restoring table (InnoDB): wp_term_taxonomy
+0000.719 () Restoring table (InnoDB): wp_terms
+0000.735 () Restoring table (InnoDB): wp_simple_subscription_popup
+0000.752 () Leaving maintenance mode
+0000.753 () Disabling Maintenance mode&#8230;
+0000.754 () Finished: lines processed: 42 in 0.42 seconds
+0000.755 () Cleaning up rubbish...
+0000.758 () Entity: plugins
+0000.758 () restore_backup(backup_file=backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.759 () Unpacking backup... (backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-plugins.zip, 20.5 Mb)
+0018.046 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.049 () Moving old data: can potentially use wp_filesystem method / -old
+0018.049 () Moving old data out of the way...
+0018.662 () Top-level entities being moved: akismet, hello.php, all-in-one-wp-migration, wptouch, wp-mail-smtp, simple-tags, index.php, contact-form-7, jetpack, all-in-one-seo-pack, google-analytics-for-wordpress, google-sitemap-generator, updraftplus
+0018.670 () Error message: Could not move the files into place. Check your file permissions.
+0018.671 () Error data (move_failed): /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/updraftplus -> /opt/bitnami/apps/wordpress/htdocs/wp-content/updraft/plugins-old/updraftplus
+0018.671 () plugins: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins: deleting contents (as attempts to copy failed)
+0019.478 () Moving unpacked backup into place...
+0020.967 () Top-level entities being moved: akismet, all-in-one-seo-pack, all-in-one-wp-migration, branded-login-screen, contact-form-7, custom-login, google-analytics-for-wordpress, google-sitemap-generator, hello.php, index.php, jetpack, rename-wp-login, simple-signup-form, simple-tags, tumblr-crosspostr, updraftplus, wp-mail-smtp, wptouch
+0020.971 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.975 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.980 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.984 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.989 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.994 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0020.998 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.003 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.008 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.012 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.017 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.022 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.027 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.032 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.037 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.042 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.048 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.053 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.069 () Cleaning up rubbish...
+0021.073 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.073 () Entity: themes
+0021.074 () restore_backup(backup_file=backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/opt/bitnami/apps/wordpress/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0021.074 () Unpacking backup... (backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-themes.zip, 7 Mb)
+0024.285 () Moving old data: filesystem method / updraft_dir is potentially possible
+0024.287 () Moving old data: can potentially use wp_filesystem method / -old
+0024.287 () Moving old data out of the way...
+0024.328 () Top-level entities being moved: twentyfifteen, index.php, twentythirteen, twentyfourteen
+0024.332 () Moving unpacked backup into place...
+0024.606 () Top-level entities being moved: compass, edin, goran, index.php, news-flash, news-mix-light, twentyfifteen, twentyfourteen, twentythirteen
+0024.610 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.614 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.619 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.623 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.628 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.633 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.637 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.642 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.647 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.650 () Cleaning up rubbish...
+0024.654 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/themes (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.654 () Entity: uploads
+0024.654 () restore_backup(backup_file=backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0024.655 () Unpacking backup... (backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-uploads.zip, 1.8 Mb)
+0024.952 () Moving old data: filesystem method / updraft_dir is potentially possible
+0024.954 () Moving old data: can potentially use wp_filesystem method / -old
+0024.954 () Moving old data out of the way...
+0024.957 () Moving unpacked backup into place...
+0024.969 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.970 () Cleaning up rubbish...
+0024.974 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.974 () Entity: others
+0024.974 () restore_backup(backup_file=backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/opt/bitnami/apps/wordpress/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0024.974 () Unpacking backup... (backup_2015-04-10-1718_Sarav039s_Blog_be600fbe9c10-others.zip, 3.2 Mb)
+0026.699 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0026.704 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content/ (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0026.705 () Cleaning up rubbish...
+0026.708 () PHP event: code E_NOTICE: Undefined index: /opt/bitnami/apps/wordpress/htdocs/wp-content (line 230, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0026.732 () Restore successful!
+0026.732 () Restore successful
